@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/anchor-has-content": "off",
+    "indent": ["off",2],
+    "no-tabs": "off",
+    "react/jsx-indent":"off",
+    "semi": "off",
+    "space-before-blocks": "off",
+    "react/forbid-prop-types": "warn",
+    "arrow-parens": "off",
+    "space-before-function-paren": "off",
+    "react/prop-types": "warn"
+  },
+  "env" :{
+    "browser": true
+  }
+}
